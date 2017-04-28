@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!--character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--responsive site -->
+        <title>HTML Skeleton</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+        <link href="filter.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+    <div class="buttons">
+        <button id="gryfbutton" class="filter" data-filter="gryffindor">Gryffindor</button>
+        <button id="ravebutton" class="filter" data-filter="ravenclaw">Ravenclaw</button>
+        <button id="huffbutton" class="filter" data-filter="hufflepuff">Hufflepuff</button>
+        <button id="slytherbutton" class="filter" data-filter="slytherin">Slytherin</button>
+        <button id="deathbutton" class="filter" data-filter="deatheater">Death Eater</button>
+        <button id="dumblebutton" class="filter" data-filter="teamdumbledore">Team Dumbledore</button>
+        <button id="mugglebutton" class="filter" data-filter="muggleborn">Muggleborn</button>
+        <button id="wizardbutton" class="filter" data-filter="wizardparents">Wizard Parents</button>
+        <button class="filter" data-filter="reset">Reset</button>
+    </div>
+
+<div class="boxes">
+        <div id="harry" class="gryffindor teamdumbledore wizardparents item"><img src="images/harry.jpg"></div>
+        <div id="ron" class="gryffindor teamdumbledore wizardparents item"><img src="images/ron.jpg"></div>
+        <div id="hermione" class="gryffindor teamdumbledore muggleborn item"><img src="images/hermione.jpg"></div>
+        <div id="colin" class="gryffindor teamdumbledore muggleborn item"><img src="images/colin.png"></div>
+        <div id="wormtail" class="gryffindor deatheater wizardparents item"><img src="images/wormtail.jpg"></div>
+        <div id="malfoy" class="slytherin deatheater wizardparents item"><img src="images/malfoy.jpg"></div>
+        <div id="snape" class="slytherin teamdumbledore wizardparents item"><img src="images/snape.jpg"></div>
+        <div id="voldemort" class="slytherin deatheater muggleparents wizardparents item"><img src="images/voldemort.jpg"></div>
+        <div id="cedric" class="hufflepuff teamdumbledore wizardparents item"><img src="images/cedric.jpg"></div>
+        <div id="tonks" class="hufflepuff teamdumbledore wizardparents item"><img src="images/tonks.jpg"></div>
+        <div id="luna" class="ravenclaw teamdumbledore wizardparents item"><img src="images/luna.jpg"></div>
+        <div id="cho" class="ravenclaw teamdumbledore muggleparents wizardparents item"><img src="images/cho.jpg"></div>
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="filter.js"></script>
+    </body>
+
+</html>

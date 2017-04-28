@@ -1,0 +1,62 @@
+.item {
+    display: none;
+}
+
+.item.active {
+	display: inline-block;
+   width: 30%;
+}
+
+.item img{
+	width: 100%;
+}
+
+.boxes{
+	text-align: center;
+}
+
+.buttons{
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: .5%;
+}
+
+button {
+	color:white;
+	font-style: bold;
+	font-size: 1em;
+	height:5%;
+	padding-top:.5%;
+}
+
+#gryfbutton:focus {
+	background-color: #C22807;
+}
+#huffbutton:focus {
+	background-color: #FFDF00;
+}
+#slytherbutton:focus {
+	background-color: 	#006400;
+}
+#ravebutton:focus {
+	background-color: #0C0799;
+}
+#deathbutton:focus {
+	background-color: #3B4957;
+}
+#dumblebutton:focus {
+	background-color: #945965;
+}
+#mugglebutton:focus {
+	background-color: #6AA653;
+}
+#wizardbutton:focus {
+	background-color: #36A88F;
+}
+#resetbutton:active {
+	color:#945965;
+}
+
+#harry, #ron, #hermione, #colin, #wormtail, #malfoy, #snape, #voldemort, #cedric, #tonks, #luna, #cho {
+	max-width: 200px;
+}
